@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Footer = () => {
   return (
     <div>
-      <footer className='text-gray-600 body-font bg-white pl-32 pr-32'>
+      <footer className='text-gray-600 body-font bg-white pl-32 pr-32 border-t-2 border-grayLight'>
         <div className='container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col'>
           <a className='flex title-font font-medium items-center md:justify-start justify-center text-gray-900'>
             {/* <svg

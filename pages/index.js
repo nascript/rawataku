@@ -5,6 +5,8 @@ import Header from '../components/reusable/Header'
 import Footer from '../components/reusable/Footer'
 import Hero from '../components/commons/Hero'
 import Features from '../components/commons/Features'
+import Card from '../components/commons/Card'
+import Highlight from '../components/commons/Highlight'
 
 export default function Home() {
   return (
@@ -18,6 +20,8 @@ export default function Home() {
         <Header />
         <Hero />
         <Features />
+        <Highlight />
+        <Card />
       </main>
       <footer className='inset-x-0 bottom-0'>
         <Footer />

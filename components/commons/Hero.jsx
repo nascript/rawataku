@@ -6,7 +6,7 @@ const Hero = () => {
     <div>
       <section className='text-white-500 body-font bg-primary pl-32 pr-32'>
         <div className='container mx-auto flex px-5 py-16 md:flex-row flex-col items-center'>
-          <div className='lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center'>
+          <div className='w-32 md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center'>
             <h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium text-white'>
               Coming Soon!
             </h1>
@@ -74,14 +74,14 @@ const Hero = () => {
               </button>
             </div>
           </div>
-          <div className='lg:max-w-lg lg:w-full md:w-1/2 w-5/6 absolute right-0'>
+          <div className='flex lg:max-w-lg lg:w-full md:w-1/2 w-5/6 absolute inset-y-46 right-0'>
             {/* <img
               className='object-cover object-center rounded'
               alt='hero'
               src='https://dummyimage.com/720x600'
             /> */}
             {/* <Image className='right-0' src='/nurse.png' alt='me' width='254' height='354' /> */}
-            <Image className='' src='/nurse-4.png' alt='me' width='330' height='389' />
+            <Image className='' src='/suster.png' alt='me' width='430' height='399' />
           </div>
         </div>
       </section>
